@@ -1,8 +1,7 @@
 PythonAutoImport
 ================
 
-#PythonAutoImport
-An auto-import plugin for Sublime Text 3 (ST2 not supported)
+An Python auto-import plugin for Sublime Text 3 (ST2 not supported)
 
 ## Overview
 This plugin adds some helpers to allow you to automatically import Python objects under your cursor
@@ -35,11 +34,11 @@ Position your cursor over the object you wish to import, and then activate Pytho
 **Root path:**
 Set where you wish your imports to be relative from in the `root_path` setting
 
-For example, if import is created as::
+For example, if import is created as
 
     from x.y.z import a
 
-and your normal import path is::
+and your normal import path is
 
     from z import a
 
