@@ -4,7 +4,11 @@ PythonAutoImport
 An Python auto-import plugin for Sublime Text 3 (ST2 not supported)
 
 ## Overview
-This plugin adds some helpers to allow you to automatically import Python objects under your cursor
+This plugin automatically adds import statements for objects under your cursor
+
+Multiple choices are shown via the same menu as Goto Definition
+
+Attempts to append to existing import statements if found
 
 ## Installation
 (You may need to restart Sublime Text 3 for the plugin to load)
