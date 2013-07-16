@@ -1,0 +1,5 @@
+[
+    { "keys": ["ctrl+alt+i"], "command": "python_auto_import" },
+    { "keys": ["ctrl+alt+shift+i"], "command": "python_auto_import", "args": {"style": "absolute",}},
+    //{ "keys": ["ctrl+alt+shift+i"], "command": "auto_import", "args": {"style": "relative",}},
+]

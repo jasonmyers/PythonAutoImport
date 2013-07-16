@@ -1,0 +1,13 @@
+[
+    {   "caption": "Import This Word",
+        "command": "python_auto_import"
+    },
+    {   "caption": "Import This Word (absolute)",
+        "command": "python_auto_import",
+        "args": {"style": "absolute"}
+    },
+    // {   "caption": "Import This Word",
+    //     "command": "auto_import",
+    //     "args": {"style": "relative"}
+    // }
+]

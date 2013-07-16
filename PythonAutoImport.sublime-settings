@@ -1,0 +1,12 @@
+{
+    // The root path to perform the import from
+    // For example, if you specify "/x/y/", the import will be generated as
+    //     from z import a
+    // instead of
+    //     from x.y.z import a
+    "root_path": "",
+
+    // Whether to scroll to the new import
+    "scroll_to_import": true,
+
+}

@@ -1,0 +1,61 @@
+[
+    {
+        "id": "tools",
+        "children":
+        [
+            {
+                "caption": "PythonAutoImport",
+                "children": [
+                    {
+                        "caption": "Import this Word",
+                        "command": "python_auto_import"
+                    },
+                    {
+                        "caption": "Import this Word (absolute)",
+                        "command": "python_auto_import",
+                        "args": {"style": "absolute"}
+                    },
+                    // {
+                    //     "caption": "Import this Word (relative)",
+                    //     "command": "auto_import",
+                    //     "args": {"style": "relative"}
+                    // }
+                ]
+            }
+        ]
+    }
+
+    ,{
+        "caption": "Preferences",
+        "mnemonic": "n",
+        "id": "preferences",
+        "children":
+        [
+            {
+                "caption": "Package Settings",
+                "mnemonic": "P",
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "PythonAutoImport",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/PythonAutoImport/PythonAutoImport.sublime-settings"},
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/User/PythonAutoImport.sublime-settings"},
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
