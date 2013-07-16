@@ -1,0 +1,20 @@
+{
+    "schema_version": "0.1",
+    "packages": [
+        {
+            "name": "PythonAutoImport",
+            "description": "PythonAutoImport is a Sublime Text 3 plugin, to auto-add import statements",
+            "author": "Jason Myers",
+            "homepage": "https://github.com/jmyers/PythonAutoImport",
+            "last_modified": "2013-07-16 4:13",
+            "platforms": {
+                "*": [
+                    {
+                        "version": "0.1",
+                        "url": "https://github.com/jasonmyers/PythonAutoImport/archive/master.zip"
+                    }
+                ]
+            }
+        }
+    ]
+}
