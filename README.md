@@ -3,6 +3,8 @@ PythonAutoImport
 
 An Python auto-import plugin for Sublime Text 3 (ST2 not supported)
 
+This uses ST3's new Go To Definition feature, so anything you can Go To you should be able to import
+
 ## Overview
 This plugin automatically adds import statements for objects under your cursor
 
@@ -46,21 +48,21 @@ and your normal import path is
 
     from z import a
 
-set `root_path` to be `/x/y/`
+set `root_path` to be `/x/y/` (or `x.y`)
 
 ## Keymaps
 
 ### Windows
 `ctrl+alt+i`:  Import the object under the cursor (using `from x import y`)
 
-`ctrl+alt+shift_i`:  Import the object under the cursor (using 'import x.y`)
+`ctrl+alt+shift+i`:  Import the object under the cursor (using `import x.y`)
 
 ### OS X and Linux
 The super keys for Linux and OS X are the Windows and command key respectively.
 
 `super+alt+i`: Import the object under the cursor (using `from x import y`)
 
-`shift+super+alt+i`: Import the object under the cursor (using 'import x.y`)
+`shift+super+alt+i`: Import the object under the cursor (using `import x.y`)
 
 ## Settings
 `root_path`:
