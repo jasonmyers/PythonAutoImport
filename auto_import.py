@@ -46,6 +46,7 @@ def build_import_statement(symbol, path, root_path=None, style=ImportStyle.COMPO
     """
     if root_path is None:
         root_path = '/'
+    root_path = root_path.replace('.', '/')  # Support providing root_path as 'x.y.z'
     if not root_path.startswith('/'):
         root_path = '/' + root_path
     if not path.startswith('/'):
